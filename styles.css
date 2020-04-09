@@ -145,12 +145,6 @@ html, body {
   background: #000;
 }
 
-.performance-video{
-  width: 90%;
-  margin-left: 50px;
-  padding-top: 20px;
-}
-
 .listen-text {
   text-align: center;
   color: #fff;
@@ -414,7 +408,6 @@ html, body {
 
   .home-page-subtitle {
     font-family: 'Gotu', sans-serif;
-    /* font-size: 3vw; */
     font-size: 0.6rem;
     padding-left: 24px;
     padding-top: 10px;
@@ -520,11 +513,8 @@ html, body {
     background: #000;
   }
 
-  .performance-video{
-    width: 100%;
-    padding: 0px;
-    margin: 0px;
-    margin-left: -50px;
+  .video-section-container {
+    margin-left: -20px;
   }
 
   .listen-text {
@@ -532,14 +522,14 @@ html, body {
     margin: 0px;
     margin-top: -110px;
     text-align: left;
-    margin-left: 100px;
+    margin-left: 140px;
     font-size: 2.2rem;
   }
 
   .listen-icon {
     padding: 0px;
     margin: 0px;
-    margin-left: 230px;
+    margin-left: 270px;
     margin-top: 16px;
   }
 
@@ -694,13 +684,6 @@ html, body {
   #video-section {
     height: 420px;
     background: #000;
-  }
-
-  .performance-video{
-    width: 100%;
-    padding: 0px;
-    margin: 0px;
-    margin-left: -40px
   }
 
   .listen-text {
@@ -924,18 +907,15 @@ html, body {
     background: #000;
   }
 
-  .performance-video{
-    width: 100%;
-    padding: 0px;
-    margin: 0px;
-    margin-left: -24px
+  .video-section-container {
+    margin-left: -20px;
   }
 
   .listen-text {
     padding: 0px;
     margin: 0px;
     margin-top: -120px;
-    margin-left: 40px;
+    margin-left: 60px;
     text-align: left;
     font-size: 1.6rem;
   }
@@ -943,7 +923,7 @@ html, body {
   .listen-icon {
     padding: 0px;
     margin: 0px;
-    margin-left: 130px;
+    margin-left: 150px;
     margin-top: 16px;
     font-size: 0.8rem;
   }
@@ -1097,12 +1077,16 @@ html, body {
     height: 760px;
   }
 
+  .video-section-container {
+    margin-left: -20px;
+  }
+
   .listen-text {
-    margin-left: 24px;
+    margin-left: 44px;
   }
 
   .listen-icon {
-    margin-left: 120px;
+    margin-left: 140px;
   }
 
   #fares {
@@ -1276,20 +1260,13 @@ html, body {
     background: #000;
   }
 
-  .performance-video{
-    width: 100%;
-    padding: 0px;
-    margin: 0px;
-    margin-left: -24px
-  }
-
   .listen-text {
     margin-top: -126px;
-    margin-left: 10px;
+    margin-left: 30px;
   }
 
   .listen-icon {
-    margin-left: 102px;
+    margin-left: 120px;
   }
 
   #fares {
