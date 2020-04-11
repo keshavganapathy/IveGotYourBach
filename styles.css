@@ -10,6 +10,24 @@ html, body {
   overflow-x: hidden;
 }
 
+body::-webkit-scrollbar {
+  width: 1.2rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: #1D2021;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #EECF95;
+  border: 4px solid  #1D2021;
+  border-radius: 9px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: #F9E0B3;
+}
+
 .navbar {
   background: #000;
 }
@@ -317,7 +335,7 @@ html, body {
 @media only screen and (max-width: 1199px) {
 
   #home-page {
-    background: linear-gradient(rgba(2,2,2,0.62), rgba(2,2,2,0.62)), url("images/piano-min.jpg") no-repeat center center fixed;
+    background: linear-gradient(rgba(2,2,2,0.62), rgba(2,2,2,0.62)), url("images/piano.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
@@ -431,7 +449,7 @@ html, body {
 
   #home-page {
     height: 360px;
-    background: linear-gradient(rgba(2,2,2,0.62), rgba(2,2,2,0.62)), url("images/piano-min.jpg") no-repeat center center fixed;
+    background: linear-gradient(rgba(2,2,2,0.62), rgba(2,2,2,0.62)), url("images/piano.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
@@ -632,7 +650,7 @@ html, body {
 @media only screen and (max-width: 766px){
 
   #home-page {
-    background: linear-gradient(rgba(2,2,2,0.62), rgba(2,2,2,0.62)), url("images/piano-min.jpg") no-repeat center center fixed;
+    background: linear-gradient(rgba(2,2,2,0.62), rgba(2,2,2,0.62)), url("images/piano.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
@@ -807,7 +825,7 @@ html, body {
 
   #home-page {
     height: 280px;
-    background: linear-gradient(rgba(2,2,2,0.62), rgba(2,2,2,0.62)), url("images/piano-min.jpg") no-repeat center center fixed;
+    background: linear-gradient(rgba(2,2,2,0.62), rgba(2,2,2,0.62)), url("images/piano.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
@@ -1038,7 +1056,7 @@ html, body {
 @media only screen and (max-width: 376px) {
 
   #home-page {
-    background: linear-gradient(rgba(2,2,2,0.62), rgba(2,2,2,0.62)), url("images/piano-min.jpg") no-repeat center center fixed;
+    background: linear-gradient(rgba(2,2,2,0.62), rgba(2,2,2,0.62)), url("images/piano.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
@@ -1153,7 +1171,7 @@ html, body {
 
   #home-page {
     height: 240px;
-    background: linear-gradient(rgba(2,2,2,0.62), rgba(2,2,2,0.62)), url("images/piano-min.jpg") no-repeat center center fixed;
+    background: linear-gradient(rgba(2,2,2,0.62), rgba(2,2,2,0.62)), url("images/piano.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
@@ -1237,7 +1255,7 @@ html, body {
 @media only screen and (max-width: 320px){
 
   #home-page {
-    background: linear-gradient(rgba(2,2,2,0.62), rgba(2,2,2,0.62)), url("images/piano-min.jpg") no-repeat center center fixed;
+    background: linear-gradient(rgba(2,2,2,0.62), rgba(2,2,2,0.62)), url("images/piano.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
