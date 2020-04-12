@@ -394,6 +394,10 @@ body::-webkit-scrollbar-thumb:hover {
     margin-left: 460px;
   }
 
+  .plus-icon {
+    margin-left: -6px;
+  }
+
   #contact {
     height: 340px;
     background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8)), url("images/white-piano.jpg") no-repeat center center fixed;
