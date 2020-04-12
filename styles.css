@@ -42,6 +42,7 @@ body::-webkit-scrollbar-thumb:hover {
 
 .nav-link {
   font-size: 1.2rem;
+  font-weight: lighter;
 }
 
 #home-page {
@@ -428,6 +429,11 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 @media only screen and (max-width: 991px){
+
+  .nav-link {
+    font-size: 1.2rem;
+    font-weight: normal;
+  }
 
   .home-page-title {
     font-family: 'Dancing Script', cursive;
