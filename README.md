@@ -1,2 +1,2 @@
 # IveGotYourBach
-WebPoint client website: I've Got Your Bach
+Client #1: Website for Tomas Germanas's piano accompaniment company.
